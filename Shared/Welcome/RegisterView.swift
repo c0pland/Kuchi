@@ -3,6 +3,7 @@ import SwiftUI
 struct RegisterView: View {
 	@EnvironmentObject var userManager: UserManager
 	@FocusState var nameFieldFocused: Bool
+	
 	var body: some View {
 		VStack {
 			Spacer()
