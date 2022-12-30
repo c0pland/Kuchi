@@ -10,7 +10,7 @@ struct ChoicesView: View {
 
   var body: some View {
     VStack(spacing: 25) {
-      ForEach(0..<challengeTest.answers.count) { index in
+		ForEach(0..<challengeTest.answers.count, id: \.self) { index in
         Button(action: {
           challengeSolved = checkAnswer(at: index)
           isChallengeResultAlertDisplayed = true
