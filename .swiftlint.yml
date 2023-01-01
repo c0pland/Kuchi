@@ -1,4 +1,5 @@
 disabled_rules:
+- multiple_closures_with_trailing_closure
 - trailing_whitespace
 opt_in_rules:
 - empty_count
