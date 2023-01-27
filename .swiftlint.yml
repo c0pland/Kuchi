@@ -1,6 +1,11 @@
 disabled_rules:
 - multiple_closures_with_trailing_closure
 - trailing_whitespace
+- identifier_name
+- line_length
+- no_fallthrough_only
+- control_statement
+- statement_position
 opt_in_rules:
 - empty_count
 - empty_string

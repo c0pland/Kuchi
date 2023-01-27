@@ -3,22 +3,49 @@ import SwiftUI
 struct ChallengeView: View {
 	let challengeTest: ChallengeTest
 	@State var showAnswers = false
-	@State var numberOfAnswered = 0
+	@Binding var numberOfAnswered: Int
+	@Environment(\.verticalSizeClass) var verticalSizeClass
+	@AppStorage("numberOfQuestions") var numberOfQuestions = 6
 	
+	@ViewBuilder
 	var body: some View {
-		VStack {
-			Button(action: {
-				showAnswers.toggle()
-			}) {
-				QuestionView(question: challengeTest.challenge.question)
-					.frame(height: 300)
+		if verticalSizeClass == .compact {
+			VStack {
+				HStack {
+					Button(action: {
+						showAnswers = !showAnswers
+					}) {
+						QuestionView(
+							question: challengeTest.challenge.question)
+					}
+					if showAnswers {
+						Divider()
+						ChoicesView(challengeTest: challengeTest)
+					}
+				}
+				ScoreView(
+					numberOfQuestions: $numberOfQuestions,
+					numberOfAnswered: $numberOfAnswered
+				)
 			}
-			ScoreView(numberOfQuestions: 5, numberOfAnswered: $numberOfAnswered)
-			if showAnswers {
-				Divider()
-				ChoicesView(challengeTest: challengeTest)
-					.frame(height: 300)
-					.padding()
+		} else {
+			VStack {
+				Button(action: {
+					showAnswers = !showAnswers }) {
+						QuestionView(
+							question: challengeTest.challenge.question)
+						.frame(height: 300)
+					}
+				ScoreView(
+					numberOfQuestions: $numberOfQuestions,
+					numberOfAnswered: $numberOfAnswered
+				)
+				if showAnswers {
+					Divider()
+					ChoicesView(challengeTest: challengeTest)
+						.frame(height: 300)
+						.padding()
+				}
 			}
 		}
 	}
@@ -36,6 +63,6 @@ struct ChallengeView_Previews: PreviewProvider {
 	
 	static var previews: some View {
 		// 2
-		return ChallengeView(challengeTest: challengeTest)
+		return ChallengeView(challengeTest: challengeTest, numberOfAnswered: .constant(0))
 	}
 }

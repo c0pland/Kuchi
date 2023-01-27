@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225A68E4297ED153009CB99B /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A68E3297ED153009CB99B /* LearnView.swift */; };
+		225A68E6297ED238009CB99B /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A68E5297ED238009CB99B /* FlashCard.swift */; };
+		225A68E8297EDE6F009CB99B /* FlashDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A68E7297EDE6F009CB99B /* FlashDeck.swift */; };
+		225A68EA297EE544009CB99B /* LearningStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A68E9297EE544009CB99B /* LearningStore.swift */; };
+		225A68EC298436C1009CB99B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A68EB298436C1009CB99B /* CardView.swift */; };
+		225A68EE2984378A009CB99B /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A68ED2984378A009CB99B /* DeckView.swift */; };
 		229D37B32955C9650020BC4E /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D37B22955C9650020BC4E /* WelcomeBackgroundImage.swift */; };
 		229D37B42955C9650020BC4E /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D37B22955C9650020BC4E /* WelcomeBackgroundImage.swift */; };
 		229D37B92955CF120020BC4E /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D37B82955CF120020BC4E /* WelcomeMessageView.swift */; };
@@ -19,6 +25,14 @@
 		229D37C62955E88B0020BC4E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D37C12955E88B0020BC4E /* Profile.swift */; };
 		229D37C72955E88B0020BC4E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D37C22955E88B0020BC4E /* Settings.swift */; };
 		229D37C82955E88B0020BC4E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D37C22955E88B0020BC4E /* Settings.swift */; };
+		22BE31A529707C3C0039714F /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE31A229707C3C0039714F /* Color+Extension.swift */; };
+		22BE31A629707C3C0039714F /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE31A229707C3C0039714F /* Color+Extension.swift */; };
+		22BE31A729707C3C0039714F /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE31A329707C3C0039714F /* LocalNotifications.swift */; };
+		22BE31A829707C3C0039714F /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE31A329707C3C0039714F /* LocalNotifications.swift */; };
+		22BE31A929707C3C0039714F /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE31A429707C3C0039714F /* Appearance.swift */; };
+		22BE31AA29707C3C0039714F /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE31A429707C3C0039714F /* Appearance.swift */; };
+		22BE31AD29707C780039714F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE31AC29707C780039714F /* SettingsView.swift */; };
+		22BE31AE29707C780039714F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE31AC29707C780039714F /* SettingsView.swift */; };
 		22D10227295DBB6600536286 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D10226295DBB6600536286 /* WelcomeView.swift */; };
 		22D10228295DBB6600536286 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D10226295DBB6600536286 /* WelcomeView.swift */; };
 		22D61D522961B50300AFE7D0 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D61D512961B50300AFE7D0 /* ScoreView.swift */; };
@@ -55,12 +69,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		225A68E3297ED153009CB99B /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		225A68E5297ED238009CB99B /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		225A68E7297EDE6F009CB99B /* FlashDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashDeck.swift; sourceTree = "<group>"; };
+		225A68E9297EE544009CB99B /* LearningStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningStore.swift; sourceTree = "<group>"; };
+		225A68EB298436C1009CB99B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		225A68ED2984378A009CB99B /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
 		229D37B22955C9650020BC4E /* WelcomeBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackgroundImage.swift; sourceTree = "<group>"; };
 		229D37B82955CF120020BC4E /* WelcomeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageView.swift; sourceTree = "<group>"; };
 		229D37BB2955D8990020BC4E /* BorderedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedViewModifier.swift; sourceTree = "<group>"; };
 		229D37C02955E88B0020BC4E /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		229D37C12955E88B0020BC4E /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		229D37C22955E88B0020BC4E /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		22BE31A229707C3C0039714F /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		22BE31A329707C3C0039714F /* LocalNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		22BE31A429707C3C0039714F /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		22BE31AC29707C780039714F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		22D10226295DBB6600536286 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		22D61D512961B50300AFE7D0 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		22EC4DF229520E7400785C58 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -103,6 +127,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225A68E2297ED139009CB99B /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				225A68E3297ED153009CB99B /* LearnView.swift */,
+				225A68E5297ED238009CB99B /* FlashCard.swift */,
+				225A68E7297EDE6F009CB99B /* FlashDeck.swift */,
+				225A68E9297EE544009CB99B /* LearningStore.swift */,
+				225A68EB298436C1009CB99B /* CardView.swift */,
+				225A68ED2984378A009CB99B /* DeckView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
 		229D37B12955C9540020BC4E /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +158,24 @@
 				229D37C22955E88B0020BC4E /* Settings.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		22BE31A129707C3C0039714F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				22BE31A229707C3C0039714F /* Color+Extension.swift */,
+				22BE31A329707C3C0039714F /* LocalNotifications.swift */,
+				22BE31A429707C3C0039714F /* Appearance.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		22BE31AB29707C600039714F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				22BE31AC29707C780039714F /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		22D61D542961BF2E00AFE7D0 /* Components */ = {
@@ -187,6 +242,9 @@
 		57EF33FF24E89F91004ABEB2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				225A68E2297ED139009CB99B /* Learn */,
+				22BE31AB29707C600039714F /* Settings */,
+				22BE31A129707C3C0039714F /* Utils */,
 				22EFF132295DBA8400241119 /* HistoryView.swift */,
 				22EFF12F295DBA7D00241119 /* StarterView.swift */,
 				22EFF119295DBA6500241119 /* Practice */,
@@ -348,24 +406,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225A68E4297ED153009CB99B /* LearnView.swift in Sources */,
+				22BE31A729707C3C0039714F /* LocalNotifications.swift in Sources */,
 				57EF341324E89F92004ABEB2 /* KuchiApp.swift in Sources */,
+				22BE31A529707C3C0039714F /* Color+Extension.swift in Sources */,
 				22EFF12D295DBA6500241119 /* ChoicesRow.swift in Sources */,
+				225A68EE2984378A009CB99B /* DeckView.swift in Sources */,
 				22EFF130295DBA7D00241119 /* StarterView.swift in Sources */,
 				229D37C52955E88B0020BC4E /* Profile.swift in Sources */,
 				22EC4DF329520E7400785C58 /* RegisterView.swift in Sources */,
 				229D37C32955E88B0020BC4E /* UserManager.swift in Sources */,
 				22EFF125295DBA6500241119 /* CongratulationsView.swift in Sources */,
+				22BE31AD29707C780039714F /* SettingsView.swift in Sources */,
 				22EFF133295DBA8400241119 /* HistoryView.swift in Sources */,
 				229D37BC2955D8990020BC4E /* BorderedViewModifier.swift in Sources */,
 				22D61D522961B50300AFE7D0 /* ScoreView.swift in Sources */,
 				229D37B32955C9650020BC4E /* WelcomeBackgroundImage.swift in Sources */,
+				225A68EC298436C1009CB99B /* CardView.swift in Sources */,
+				225A68EA297EE544009CB99B /* LearningStore.swift in Sources */,
 				229D37C72955E88B0020BC4E /* Settings.swift in Sources */,
 				22EFF12B295DBA6500241119 /* ChallengeView.swift in Sources */,
 				22EFF123295DBA6500241119 /* QuestionView.swift in Sources */,
 				229D37B92955CF120020BC4E /* WelcomeMessageView.swift in Sources */,
 				22EFF127295DBA6500241119 /* ChallengesViewModel.swift in Sources */,
+				225A68E8297EDE6F009CB99B /* FlashDeck.swift in Sources */,
+				225A68E6297ED238009CB99B /* FlashCard.swift in Sources */,
 				22EFF129295DBA6500241119 /* PracticeView.swift in Sources */,
 				57578FDE24E9D943003465A4 /* HomeView.swift in Sources */,
+				22BE31A929707C3C0039714F /* Appearance.swift in Sources */,
 				22EFF121295DBA6500241119 /* ChoicesView.swift in Sources */,
 				22D10227295DBB6600536286 /* WelcomeView.swift in Sources */,
 			);
@@ -376,19 +444,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EFF124295DBA6500241119 /* QuestionView.swift in Sources */,
+				22BE31AE29707C780039714F /* SettingsView.swift in Sources */,
 				22D61D532961B50300AFE7D0 /* ScoreView.swift in Sources */,
 				229D37C42955E88B0020BC4E /* UserManager.swift in Sources */,
 				22EFF126295DBA6500241119 /* CongratulationsView.swift in Sources */,
 				22EFF122295DBA6500241119 /* ChoicesView.swift in Sources */,
 				22EFF12A295DBA6500241119 /* PracticeView.swift in Sources */,
 				57EF341424E89F92004ABEB2 /* KuchiApp.swift in Sources */,
+				22BE31AA29707C3C0039714F /* Appearance.swift in Sources */,
 				229D37C82955E88B0020BC4E /* Settings.swift in Sources */,
 				22EFF128295DBA6500241119 /* ChallengesViewModel.swift in Sources */,
 				57578FDF24E9D943003465A4 /* HomeView.swift in Sources */,
 				229D37C62955E88B0020BC4E /* Profile.swift in Sources */,
+				22BE31A629707C3C0039714F /* Color+Extension.swift in Sources */,
 				22EFF12C295DBA6500241119 /* ChallengeView.swift in Sources */,
 				229D37B42955C9650020BC4E /* WelcomeBackgroundImage.swift in Sources */,
 				22EFF131295DBA7D00241119 /* StarterView.swift in Sources */,
+				22BE31A829707C3C0039714F /* LocalNotifications.swift in Sources */,
 				22D10228295DBB6600536286 /* WelcomeView.swift in Sources */,
 				229D37BD2955D8990020BC4E /* BorderedViewModifier.swift in Sources */,
 				229D37BA2955CF120020BC4E /* WelcomeMessageView.swift in Sources */,
@@ -519,6 +591,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGM98P9V33;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -540,6 +613,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGM98P9V33;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
